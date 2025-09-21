@@ -30,13 +30,13 @@ int main()
 
     if (a == 1)
     {
-        if (x == y || x == z || y == z)
-        {
-            cout << "Он равнобедренный";
-        }
-        else if (x == y && x == z)
+        if (x == y && x == z)
         {
             cout << "Он равносторонний";
+        }
+        else if (x == y || x == z || y == z)
+        {
+            cout << "Он равнобедренный";
         }
         else if (pow(Max, 2) == sumquad - pow(Max, 2))
         {
